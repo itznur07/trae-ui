@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es5",
+    "lib": ["dom", "esnext"],
+    "jsx": "react",
+    "declaration": true,
+    "declarationDir": "./dist/types",
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true, // Allows default imports from modules with no default export
+    "forceConsistentCasingInFileNames": true, // Ensures consistent casing in file names
+    "noImplicitAny": true, // Raises error on expressions and declarations with an implied 'any' type
+    "noImplicitReturns": true, // Reports an error when not all code paths in function return a value
+    "noUnusedLocals": true, // Reports errors on unused local variables
+    "noUnusedParameters": true // Reports errors on unused parameters
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
