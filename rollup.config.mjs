@@ -1,10 +1,10 @@
 import commonjs from "@rollup/plugin-commonjs";
+import json from "@rollup/plugin-json";
 import resolve from "@rollup/plugin-node-resolve";
 import typescript from "@rollup/plugin-typescript";
-import { terser } from "rollup-plugin-terser";
+import peerDepsExternal from "rollup-plugin-peer-deps-external";
 import postcss from "rollup-plugin-postcss";
-import json from "@rollup/plugin-json";
-
+import { terser } from "rollup-plugin-terser";
 export default {
   input: "src/index.ts",
   output: [
@@ -20,6 +20,7 @@ export default {
     },
   ],
   plugins: [
+    peerDepsExternal(),
     resolve(),
     commonjs(),
     typescript(),
