@@ -3,3 +3,4 @@ src/
 tests/
 !.storybook/main.js
 .storybook/
+.rollup.config.mjs
