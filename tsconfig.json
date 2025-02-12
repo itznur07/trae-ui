@@ -5,11 +5,12 @@
     "lib": ["dom", "esnext"],
     "jsx": "react",
     "declaration": true,
-    "declarationDir": "./dist/types",
+    "declarationDir": "./dist",
     "outDir": "./dist",
     "strict": true,
     "esModuleInterop": true,
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
+
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true, // Allows default imports from modules with no default export
     "forceConsistentCasingInFileNames": true, // Ensures consistent casing in file names
