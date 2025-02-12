@@ -2,7 +2,7 @@
 
 StepZen UI is a modern, highly customizable, and accessible UI component library for React and Next.js, built with TailwindCSS and TypeScript. It offers a responsive, reusable, and developer-friendly set of components to accelerate building visually stunning and scalable applications.
 
-- **Repository**: [GitHub - StepZen UI](https://github.com/your-username/stepzen-ui)
+- **Repository**: [GitHub - StepZen UI](https://github.com/itznur07/stepzen-ui)
 - **NPM Package**: [StepZen UI on NPM](https://www.npmjs.com/package/stepzen-ui)
 
 ## ✨ Features
