@@ -11,6 +11,9 @@
     "esModuleInterop": true,
     "moduleResolution": "bundler",
 
+    "declarationMap": true,
+    "emitDeclarationOnly": true,
+
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true, // Allows default imports from modules with no default export
     "forceConsistentCasingInFileNames": true, // Ensures consistent casing in file names
