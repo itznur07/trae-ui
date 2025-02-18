@@ -1,3 +1,4 @@
+import "./tailwind.css";
 // A Letter
 export { AvatarGroup } from "./components/avatar-group";
 export { Avatar } from "./components/avatar";
