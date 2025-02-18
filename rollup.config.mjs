@@ -5,7 +5,6 @@ import typescript from "@rollup/plugin-typescript";
 import peerDepsExternal from "rollup-plugin-peer-deps-external";
 import postcss from "rollup-plugin-postcss";
 import { terser } from "rollup-plugin-terser";
-import tailwindcss from "tailwindcss";
 import autoprefixer from "autoprefixer";
 
 export default {
@@ -30,10 +29,9 @@ export default {
     terser(),
     postcss({
       extract: "tailwind.css",
-      // extract: true,
       minimize: true,
       sourceMap: true,
-      plugins: [tailwindcss(), autoprefixer()],
+      plugins: [autoprefixer()],
     }),
     json(),
   ],
