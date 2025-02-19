@@ -1,6 +1,6 @@
 {
   "name": "trae-ui",
-  "version": "1.0.12",
+  "version": "0.1.0",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/itznur07/stepzen-ui.git"
+    "url": "https://github.com/itznur07/trae-ui.git"
   },
   "files": [
     "dist",
