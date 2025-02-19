@@ -10,7 +10,10 @@
     "strict": true,
     "esModuleInterop": true,
     "moduleResolution": "bundler",
-    "declarationMap": true,
+    // "declarationMap": true,
+    "declarationMap": false,
+    "removeComments": true,
+    "sourceMap": false,
     "emitDeclarationOnly": true,
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true, // Allows default imports from modules with no default export

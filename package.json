@@ -3,6 +3,7 @@
   "version": "0.1.2",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
+  "sideEffects": false,
   "types": "dist/index.d.ts",
   "type": "module",
   "exports": {
@@ -25,6 +26,7 @@
   },
   "files": [
     "dist",
+    "package.json",
     "README.md",
     "LICENSE",
     "dist/tailwind.css"
