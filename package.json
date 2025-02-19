@@ -1,5 +1,5 @@
 {
-  "name": "stepzen-ui",
+  "name": "trae-ui",
   "version": "1.0.11",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",

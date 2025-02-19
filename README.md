@@ -1,9 +1,9 @@
-# StepZen UI
+# Trae UI
 
-StepZen UI is a modern, highly customizable, and accessible UI component library for React and Next.js, built with TailwindCSS and TypeScript. It offers a responsive, reusable, and developer-friendly set of components to accelerate building visually stunning and scalable applications.
+Trae UI is a modern, highly customizable, and accessible UI component library for React and Next.js, built with TailwindCSS and TypeScript. It offers a responsive, reusable, and developer-friendly set of components to accelerate building visually stunning and scalable applications.
 
-- **Repository**: [GitHub - StepZen UI](https://github.com/itznur07/stepzen-ui)
-- **NPM Package**: [StepZen UI on NPM](https://www.npmjs.com/package/stepzen-ui)
+- **Repository**: [GitHub - Trae UI](https://github.com/itznur07/trae-ui)
+- **NPM Package**: [Trae UI on NPM](https://www.npmjs.com/package/trae-ui)
 
 ## ✨ Features
 
@@ -15,23 +15,23 @@ StepZen UI is a modern, highly customizable, and accessible UI component library
 
 ## 📦 Installation
 
-Install StepZen UI into your project using npm or yarn:
+Install Trae UI into your project using npm or yarn:
 
 ### Using npm:
 
 ```sh
-npm install stepzen-ui
+npm install trae-ui
 
 ### Using yarn:
 
 ```sh
-yarn add stepzen-ui
+yarn add trae-ui
 
 🔧 Usage
 Here's an example of how to use the Button component:
 
 import React from 'react';
-import { Button } from 'stepzen-ui';
+import { Button } from 'trae-ui';
 
 const App: React.FC = () => {
   return (
@@ -48,12 +48,12 @@ export default App;
 
 
 🛠️ Contributing
-We welcome contributions to StepZen UI! To get started:
+We welcome contributions to Trae UI! To get started:
 
-Fork the repository: GitHub - StepZen UI
+Fork the repository: GitHub - Trae UI
 
 Clone your fork locally:
-git clone https://github.com/your-username/stepzen-ui.git
+git clone https://github.com/itznur07/trae-ui.git
 
 
 Create a new branch:
