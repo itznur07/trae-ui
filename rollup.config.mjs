@@ -14,12 +14,14 @@ export default {
     {
       file: "dist/index.cjs.js",
       format: "cjs",
-      sourcemap: true,
+      sourcemap: false,
+      plugins: [terser()],
     },
     {
       file: "dist/index.esm.js",
       format: "esm",
-      sourcemap: true,
+      sourcemap: false,
+      plugins: [terser()],
     },
   ],
   plugins: [
@@ -33,7 +35,11 @@ export default {
       minimize: true,
       sourceMap: true,
       inject: true,
-      plugins: [tailwindcss, autoprefixer],
+      plugins: [
+        // typescript({ tsconfig: "./tsconfig.json" }),
+        tailwindcss,
+        autoprefixer,
+      ],
     }),
     json(),
   ],

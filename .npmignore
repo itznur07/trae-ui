@@ -1,8 +1,12 @@
+# Ignore unnecessary files/folders
 node_modules/
 src/
-.storybook/
-tests/
-!.storybook/main.js
-.storybook/
-.rollup.config.mjs
 *.map
+*.tsbuildinfo
+
+# Keep these files
+
+dist/
+package.json
+LICENSE
+README.md
