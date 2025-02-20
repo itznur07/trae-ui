@@ -28,20 +28,19 @@ export default {
     peerDepsExternal(),
     resolve(),
     commonjs(),
-    typescript(),
+    typescript({
+      tsconfig: "./tsconfig.json",
+    }),
     terser(),
     postcss({
-      extract: "tailwind.css",
+      // extract: "tailwind.css",
+      extract: true,
       minimize: true,
-      sourceMap: true,
+      sourceMap: false,
       inject: true,
-      plugins: [
-        // typescript({ tsconfig: "./tsconfig.json" }),
-        tailwindcss,
-        autoprefixer,
-      ],
+      plugins: [tailwindcss(), autoprefixer()],
     }),
     json(),
   ],
-  external: ["react", "react-dom"],
+  external: ["react", "react-dom", "tailwindcss"],
 };
