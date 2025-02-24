@@ -5,7 +5,7 @@ src/
 *.tsbuildinfo
 
 # Keep these files
-
+cli
 dist/
 package.json
 LICENSE

@@ -2,3 +2,4 @@ node_modules/
 dist/
 .env
 .rollup.config.mjs
+cli
